@@ -7,6 +7,7 @@ import Icon, {
 	EvilIcons,
 	Feather,
 	FontAwesome,
+	FontAwesome5,
 	Foundation,
 	Ionicons,
 	MaterialCommunityIcons,
@@ -14,8 +15,8 @@ import Icon, {
 	SimpleLineIcons,
 	Octicons,
 	Zocial,
-} from 'react-web-vector-icons';
-require('react-web-vector-icons/fonts');
+} from '../../src/index.js';
+require('../../fonts/index.js');
 
 const Index = () => {
 	return (
@@ -47,6 +48,36 @@ const Index = () => {
 
 			<FontAwesome
 				name='plane'
+				color='cyan'
+				size={50}
+			/>
+
+			<FontAwesome5
+				name='dice-d20'
+				color='magenta'
+				size={50}
+			/>
+
+			<FontAwesome5
+				name='book'
+				color='cyan'
+				size={50}
+			/>
+
+			<FontAwesome5
+				name='hammer'
+				color='cyan'
+				size={50}
+			/>
+
+			<FontAwesome5
+				name='rocket'
+				color='cyan'
+				size={50}
+			/>
+
+			<FontAwesome5
+				name='home'
 				color='cyan'
 				size={50}
 			/>

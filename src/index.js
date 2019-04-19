@@ -5,6 +5,7 @@ export const Entypo = createIcon(require('./glyphmaps/Entypo.json'), 'Entypo');
 export const EvilIcons = createIcon(require('./glyphmaps/EvilIcons.json'), 'EvilIcons');
 export const Feather = createIcon(require('./glyphmaps/Feather.json'), 'Feather');
 export const FontAwesome = createIcon(require('./glyphmaps/FontAwesome.json'), 'FontAwesome');
+export const FontAwesome5 = createIcon(require('./glyphmaps/FontAwesome5Pro.json'), 'FontAwesome5_Solid');
 export const Foundation = createIcon(require('./glyphmaps/Foundation.json'), 'Foundation');
 export const Ionicons = createIcon(require('./glyphmaps/Ionicons.json'), 'Ionicons');
 export const MaterialCommunityIcons = createIcon(require('./glyphmaps/MaterialCommunityIcons.json'), 'MaterialCommunityIcons');
@@ -26,6 +27,7 @@ class Icon extends Component{
       case 'EvilIcons': Icon = EvilIcons; break;
       case 'Feather': Icon = Feather; break;
       case 'FontAwesome': Icon = FontAwesome; break;
+      case 'FontAwesome5': Icon = FontAwesome5; break;
       case 'Foundation': Icon = Foundation; break;
       case 'Ionicons': Icon = Ionicons; break;
       case 'MaterialIcons': Icon = MaterialIcons; break;
